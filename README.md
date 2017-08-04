@@ -58,7 +58,7 @@ Examine files init.m, initSettings.m, and postProcessing.m for more details on s
 
 # Resources
 
-The official homepage of the book
-The official homepage of GNSS USB front-end
-SiGe 4110 datasheet (the SiGe 4110 is an example of a GNSS front end ASIC)
+* The official homepage of the book
+* The official homepage of GNSS USB front-end
+* SiGe 4110 datasheet (the SiGe 4110 is an example of a GNSS front end ASIC)
  
