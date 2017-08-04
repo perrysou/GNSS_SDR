@@ -51,7 +51,7 @@ Acquisition can be switched off (to save time) if the acquisition results alread
 
 The tracking part can be skipped too (in case the positioning module is debugged and there are no changes in tracking part). A correct settings structure and the tracking results must be present (structure trackResults). The tracking results and settings are automatically saved after each completion of tracking stage in the MATLAB data file trackingResults.mat. To run the positioning part without running tracking part complete the following steps:
 
-  1. Load tracking results and settings. Skip this step if tracking results are already in the MATLAB workspace
+	1. Load tracking results and settings. Skip this step if tracking results are already in the MATLAB workspace
   2. Run this command at the MATLAB command prompt: navSolutions = postNavigation(trackResults, settings);
   3. The results are plotted by function plotNavigation: plotNavigation(navSolutions, settings);.
 Examine files init.m, initSettings.m, and postProcessing.m for more details on settings and how to use different functions of the SDR and how they work.
